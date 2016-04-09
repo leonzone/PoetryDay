@@ -14,13 +14,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.ada.poetryday.MainActivity" >
+        <activity android:name="com.ada.poetryday.ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.ada.poetryday.ui.AllDaysActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ada.poetryday.activity.MemoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ada.poetryday.activity.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.ada.poetryday.activity.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
